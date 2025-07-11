@@ -11,5 +11,52 @@
 		"api_key": "api_key",
 		"api_secret": "api_secret"
 	},
-	"upload": []
+	"upload": 
+	[
+		{
+			"local_path": "/workspace/SPI1_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI1/%y/",
+			"rename": "SPI1_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI3_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI3/%y/",
+			"rename": "SPI3_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI6_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI6/%y/",
+			"rename": "SPI6_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI9_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI9/%y/",
+			"rename": "SPI9_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI12_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI12/%y/",
+			"rename": "SPI12_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI24_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI24/%y/",
+			"rename": "SPI24_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI36_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI36/%y/",
+			"rename": "SPI36_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI48_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI48/%y/",
+			"rename": "SPI48_%y_%m.tif"
+		},
+		{
+			"local_path": "/workspace/SPI60_%y_%m.tif",
+			"remote_path": "HCDP/production/.../SPI60/%y/",
+			"rename": "SPI60_%y_%m.tif"
+		}
+	]
 }

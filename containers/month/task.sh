@@ -15,18 +15,18 @@ echo "Aggregation date is: " $CUSTOM_DATE
 source /workspace/envs/prod.env
 
 echo "[task.sh] [1/3] Get dependencies."
-python3 wget dependencies.py $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/wget_dependencies.py $CUSTOM_DATE
 
 echo "[task.sh] [2/3] GET SPI-X."
-python3 get_spi.py 1 $CUSTOM_DATE
-python3 get_spi.py 3 $CUSTOM_DATE
-python3 get_spi.py 6 $CUSTOM_DATE
-python3 get_spi.py 9 $CUSTOM_DATE
-python3 get_spi.py 12 $CUSTOM_DATE
-python3 get_spi.py 24 $CUSTOM_DATE
-python3 get_spi.py 36 $CUSTOM_DATE
-python3 get_spi.py 48 $CUSTOM_DATE
-python3 get_spi.py 60 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 1 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 3 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 6 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 9 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 12 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 24 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 36 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 48 $CUSTOM_DATE
+python3 /home/hawaii_climate_products_container/preliminary/spi/code/month/get_spi.py 60 $CUSTOM_DATE
 
 echo "[task.sh] [3/3] Uploading data."
 python3 inject_upload_config.py config.json $CUSTOM_DATE

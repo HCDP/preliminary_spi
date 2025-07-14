@@ -9,3 +9,4 @@
 **/token.env
 **/*.keras
 envs/month/dev.env
+code/month/dependencies/*

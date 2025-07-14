@@ -42,9 +42,9 @@ def get_params(month_date, spi_scale):
             arr = np.where(arr == nodata, np.nan, arr)
             rainfall_stack.append(arr)
 
-    alphas = load_param_tif(local_dep_dir, f"SPI{spi_scale}_alpha", month_date.month)
-    betas = load_param_tif(local_dep_dir, f"SPI{spi_scale}_beta", month_date.month)
-    prob_zero = load_param_tif(local_dep_dir, f"SPI{spi_scale}_prob_zero", month_date.month)
+    alphas = load_param_tif(local_dep_dir, f"gamma_tifs/SPI{spi_scale}_alpha", month_date.month)
+    betas = load_param_tif(local_dep_dir, f"gamma_tifs/SPI{spi_scale}_beta", month_date.month)
+    prob_zero = load_param_tif(local_dep_dir, f"prob_zero_tifs/SPI{spi_scale}_prob_zero", month_date.month)
 
     lat_len, lon_len = alphas.shape
     spi_result = np.full((lat_len, lon_len), np.nan, dtype=np.float32)
@@ -124,6 +124,6 @@ if __name__=="__main__":
     else:
         hst = pytz.timezone('HST')
         today = datetime.today().astimezone(hst)
-        prev = today - timedelta(months=1)
+        prev = today - relativedelta(months=1)
         month_date = datetime(prev.year,prev.month,1)
     run_spi_pipeline(month_date, scale)

@@ -1,12 +1,10 @@
 import os
 import sys
-import subprocess
 import pytz
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
-from util import handle_retry
 from os.path import join
 print(os.getcwd())
 
@@ -14,8 +12,6 @@ print(os.getcwd())
 # ***CHANGE THIS TO YOUR LOCAL DEPENDENCY DIRECTORY***
 hcdp_api_token = os.environ.get('HCDP_API_TOKEN')
 local_dep_dir = os.environ.get('DEPENDENCY_DIR')
-remote_baseurl = "https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/preliminary/spi/dependencies/monthly/"
-
 
 datasets = [({"datatype": "rainfall", "production": "new"}, "rainfall")]
 

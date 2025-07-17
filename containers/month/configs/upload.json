@@ -15,48 +15,48 @@
 	[
 		{
 			"local_path": "/workspace/SPI1_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI1/%y/",
-			"rename": "SPI1_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale001/statewide/data_map/%y/",
+			"rename": "spi_month_timescale001_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI3_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI3/%y/",
-			"rename": "SPI3_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale003/statewide/data_map/%y/",
+			"rename": "spi_month_timescale003_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI6_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI6/%y/",
-			"rename": "SPI6_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale006/statewide/data_map/%y/",
+			"rename": "spi_month_timescale006_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI9_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI9/%y/",
-			"rename": "SPI9_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale009/statewide/data_map/%y/",
+			"rename": "spi_month_timescale009_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI12_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI12/%y/",
-			"rename": "SPI12_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale012/statewide/data_map/%y/",
+			"rename": "spi_month_timescale012_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI24_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI24/%y/",
-			"rename": "SPI24_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale024/statewide/data_map/%y/",
+			"rename": "spi_month_timescale024_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI36_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI36/%y/",
-			"rename": "SPI36_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale036/statewide/data_map/%y/",
+			"rename": "spi_month_timescale036_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI48_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI48/%y/",
-			"rename": "SPI48_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale048/statewide/data_map/%y/",
+			"rename": "spi_month_timescale048_statewide_data_map_%y_%m.tif"
 		},
 		{
 			"local_path": "/workspace/SPI60_%y_%m.tif",
-			"remote_path": "HCDP/production/.../SPI60/%y/",
-			"rename": "SPI60_%y_%m.tif"
+			"remote_path": "HCDP/production/spi/month/timescale060/statewide/data_map/%y/",
+			"rename": "spi_month_timescale060_statewide_data_map_%y_%m.tif"
 		}
 	]
 }

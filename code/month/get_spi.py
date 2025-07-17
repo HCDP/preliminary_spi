@@ -1,12 +1,12 @@
 import rasterio
 import numpy as np
 import os
-from climate_indices import compute, indices, utils
+from climate_indices import compute, indices
 from joblib import Parallel, delayed
 from tqdm import tqdm
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
-from datetime import datetime, timedelta
+from datetime import datetime
 import sys
 import pytz
 from dateutil import parser

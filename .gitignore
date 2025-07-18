@@ -8,5 +8,5 @@
 **/__pycache__
 **/token.env
 **/*.keras
-envs/month/dev.env
-code/month/dependencies/*
+envs/monthly/dev.env
+code/monthly/dependencies/*

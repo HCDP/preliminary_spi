@@ -29,7 +29,7 @@ jobs:
         username: ${{ secrets.PUSH_PACKAGE_USERNAME }}
         password: ${{ secrets.PUSH_PACKAGE_TOKEN }}
     - name: Build container
-      run: docker build . --file containers/month/Dockerfile --tag ghcr.io/hcdp/${{ env.CONTAINER_NAME }}:${{ env.TAG }}
+      run: docker build . --file containers/monthly/Dockerfile --tag ghcr.io/hcdp/${{ env.CONTAINER_NAME }}:${{ env.TAG }}
     - name: Tag the container as latest
       run: docker tag ghcr.io/hcdp/${{ env.CONTAINER_NAME }}:${{ env.TAG }} ghcr.io/hcdp/${{ env.CONTAINER_NAME }}:latest
     - name: Push the container

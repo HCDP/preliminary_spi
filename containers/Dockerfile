@@ -9,6 +9,9 @@ RUN python3 -m pip install numpy
 RUN python3 -m pip install tqdm
 RUN python3 -m pip install pandas
 RUN python3 -m pip install scipy
+RUN python3 -m pip install joblib
+RUN python3 -m pip install pytz
+RUN python3 -m pip install python-dateutil
 RUN python3 -m pip install https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/preliminary/spi/dependencies/climate_indices-0.1.0-py3-none-any.whl
 
 RUN mkdir -p /workspace/code
